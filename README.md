@@ -4,7 +4,7 @@
 
 Built entirely on a free-tier Google Colab T4 GPU, from a 34-second video of a desk.
 
-**[→ View the interactive results dashboard](./docs/spatialai_dashboard.html)**
+**[→ View the interactive results dashboard](https://22amruthavarshni.github.io/SpatialAI/spatialai_dashboard.html)**
 
 ---
 
@@ -57,7 +57,7 @@ SpatialAI/
 │   ├── 05_gaussian_splatting.ipynb
 │   └── 06_scene_fusion.ipynb
 ├── outputs/
-│   ├── detections/          # YOLO detections (JSON + annotated frames)
+│   ├── detections/          # YOLO detections (detections.json — class, confidence, box per frame)
 │   ├── depth_maps/          # MiDaS depth maps (raw arrays + visualizations)
 │   ├── camera_poses/        # COLMAP sparse reconstruction (cameras, images, points3D)
 │   └── reconstruction/      # Gaussian Splatting trained models
