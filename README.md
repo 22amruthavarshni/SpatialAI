@@ -4,7 +4,7 @@
 
 Built entirely on a free-tier Google Colab T4 GPU, from a 34-second video of a desk.
 
-**[→ View the interactive results dashboard](https://22amruthavarshni.github.io/SpatialAI/spatialai_dashboard.html)**
+**[→ View the interactive results dashboard](https://22amruthavarshni.github.io/SpatialAI/)**
 
 ---
 
@@ -64,7 +64,7 @@ SpatialAI/
 ├── scene_graph/
 │   └── scene_graph.json     # Final fused object graph
 ├── docs/
-│   └── spatialai_dashboard.html   # Self-contained interactive results dashboard
+│   └── index.html            # Self-contained interactive results dashboard (GitHub Pages)
 └── README.md
 ```
 
@@ -73,7 +73,7 @@ SpatialAI/
 1. Record a slow ~30 second handheld video in an arc around a static, texture-rich scene (60–80% overlap between frames matters more than frame count).
 2. Run the notebooks in `notebooks/` in order — each is self-contained and mounts Google Drive for persistence across sessions.
 3. Phases 1–2 run comfortably on a free Colab T4. Phase 4 (Gaussian Splatting) benefits from the GPU but will also run, more slowly, on CPU-only COLMAP steps.
-4. Open `docs/spatialai_dashboard.html` directly in a browser to explore the final reconstruction and scene graph — no server required.
+4. Open `docs/index.html` directly in a browser to explore the final reconstruction and scene graph — no server required.
 
 ## Author
 
