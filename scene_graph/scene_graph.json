@@ -1,0 +1,189 @@
+{
+  "objects": [
+    {
+      "class": "laptop",
+      "position_3d": [
+        -0.20974170772967118,
+        0.350953264027323,
+        7.511547634736502
+      ],
+      "position_std": [
+        0.467165499150756,
+        0.0979347479704066,
+        0.6144098224824737
+      ],
+      "spread_magnitude": 0.778,
+      "num_observations": 36,
+      "num_outliers_removed": 3,
+      "mean_confidence": 0.927,
+      "reliability": "medium"
+    },
+    {
+      "class": "chair",
+      "position_3d": [
+        -1.9450976308793442,
+        4.015253495888971,
+        10.754960735819326
+      ],
+      "position_std": [
+        0.6758804609665523,
+        1.131565729740758,
+        2.6556131096997637
+      ],
+      "spread_magnitude": 2.965,
+      "num_observations": 31,
+      "num_outliers_removed": 2,
+      "mean_confidence": 0.834,
+      "reliability": "low"
+    },
+    {
+      "class": "book",
+      "position_3d": [
+        -1.1881947880285153,
+        -0.4767706545040536,
+        6.295030989314192
+      ],
+      "position_std": [
+        1.0608582944086211,
+        0.9464145867535485,
+        1.1698436936432945
+      ],
+      "spread_magnitude": 1.841,
+      "num_observations": 105,
+      "num_outliers_removed": 12,
+      "mean_confidence": 0.605,
+      "reliability": "low"
+    },
+    {
+      "class": "keyboard",
+      "position_3d": [
+        0.7849461173536794,
+        1.1403492691085078,
+        9.91101581421802
+      ],
+      "position_std": [
+        0.18666704371934123,
+        0.029165676894613943,
+        0.41285424438138335
+      ],
+      "spread_magnitude": 0.454,
+      "num_observations": 4,
+      "num_outliers_removed": 1,
+      "mean_confidence": 0.573,
+      "reliability": "medium"
+    },
+    {
+      "class": "cup",
+      "position_3d": [
+        1.721477003621909,
+        -0.035266724271814306,
+        7.296601029528927
+      ],
+      "position_std": [
+        0.24318311318908567,
+        0.02697650843716077,
+        0.5146615097173853
+      ],
+      "spread_magnitude": 0.57,
+      "num_observations": 18,
+      "num_outliers_removed": 6,
+      "mean_confidence": 0.736,
+      "reliability": "medium"
+    },
+    {
+      "class": "bottle",
+      "position_3d": [
+        1.1780764503545027,
+        -0.4926403217187601,
+        6.45034658088835
+      ],
+      "position_std": [
+        0.24054692057852758,
+        0.08692159886299229,
+        0.5976179368433361
+      ],
+      "spread_magnitude": 0.65,
+      "num_observations": 4,
+      "num_outliers_removed": 1,
+      "mean_confidence": 0.424,
+      "reliability": "medium"
+    }
+  ],
+  "relationships": [
+    {
+      "object_a": "laptop",
+      "object_b": "chair",
+      "distance": 5.192
+    },
+    {
+      "object_a": "laptop",
+      "object_b": "book",
+      "distance": 1.767
+    },
+    {
+      "object_a": "laptop",
+      "object_b": "keyboard",
+      "distance": 2.715
+    },
+    {
+      "object_a": "laptop",
+      "object_b": "cup",
+      "distance": 1.981
+    },
+    {
+      "object_a": "laptop",
+      "object_b": "bottle",
+      "distance": 1.94
+    },
+    {
+      "object_a": "chair",
+      "object_b": "book",
+      "distance": 6.375
+    },
+    {
+      "object_a": "chair",
+      "object_b": "keyboard",
+      "distance": 4.053
+    },
+    {
+      "object_a": "chair",
+      "object_b": "cup",
+      "distance": 6.466
+    },
+    {
+      "object_a": "chair",
+      "object_b": "bottle",
+      "distance": 6.972
+    },
+    {
+      "object_a": "book",
+      "object_b": "keyboard",
+      "distance": 4.425
+    },
+    {
+      "object_a": "book",
+      "object_b": "cup",
+      "distance": 3.109
+    },
+    {
+      "object_a": "book",
+      "object_b": "bottle",
+      "distance": 2.371
+    },
+    {
+      "object_a": "keyboard",
+      "object_b": "cup",
+      "distance": 3.016
+    },
+    {
+      "object_a": "keyboard",
+      "object_b": "bottle",
+      "distance": 3.847
+    },
+    {
+      "object_a": "cup",
+      "object_b": "bottle",
+      "distance": 1.105
+    }
+  ]
+}
